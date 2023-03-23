@@ -1,0 +1,16 @@
+Detail Steps:
+
+Set up a Google Cloud Platform account and create a project
+- configure gcp and create project 
+
+Enable the Cloud Build and Container Registry APIs for your project
+- install brew
+- install terraform
+- install gcloud
+- gcloud init
+- gcloud auth application-default login
+- create terraform file to create permission in gcp for cloud_build and container_registry
+- terraform apply
+
+Write a Dockerfile for the application
+- create Dockerfile
